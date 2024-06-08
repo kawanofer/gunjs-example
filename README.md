@@ -7,15 +7,21 @@ GUN is a small, easy, and fast protocol for syncing data. Because GUN is small, 
 ### CLONE PROJECT ###
 `https://github.com/kawanofer/gunjs-example`
 
+### RUN SERVER - 'NODE' ###
+* `cd gunjs-example`
+
+* `cd server`
+
+* `npm install`
+
+* `npm start`
+
 ### RUN CLIENT - 'REACT' ###
 
-`cd gunjs-example`
-`cd gun-js`
-`npm install`
-`npm start`
+* `cd gunjs-example`
 
-### RUN SERVER - 'NODE' ###
-`cd gunjs-example`
-`cd server`
-`npm install`
-`npm start`
+* `cd gun-js`
+
+* `npm install`
+
+* `npm start`
