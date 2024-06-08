@@ -1,0 +1,41 @@
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+
+:root {
+  --speed: 100s;
+  --transition: 50s;
+}
+
+body {
+  margin: 0;
+  width: 100%;
+  overflow: hidden;
+  color: hsl(0 0% 10%);
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif, system-ui;
+  font-weight: 100;
+}
+
+main {
+  padding: 2rem 30rem;
+  height: 100%;
+}
+
+.box {
+  padding-bottom: 1rem;
+  border-bottom: 3px solid grey;
+}
+
+.users-online {
+  display: flex;
+}
+
+button {
+  width: 100px;
+}
+
+h2 {
+  margin: 0 2rem;
+}
